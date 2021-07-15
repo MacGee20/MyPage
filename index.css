@@ -1,0 +1,95 @@
+
+
+body   {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: lightskyblue;
+    text-align: center;
+    height: 100vh;
+    font-size: 2em;
+    
+}
+
+
+header{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color:whitesmoke;
+    height: 9em;
+    padding: 0 10px 0 10px;
+    
+}
+main{
+    
+    margin: 10px, 30px, 30px, 30px;
+}
+
+#name  {
+    align-self:center;
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif;
+     padding: 0;
+     
+}
+
+#name:hover {
+    transform: scale(1.1);
+    margin-left: 10px;
+}
+
+
+.logo {
+    align-self:flex-end;
+    
+    
+}
+
+.bio{
+    border: 2px grey solid; 
+    text-align:center  ;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards p {
+    border: 2px grey solid;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 4rem;
+}
+
+.cards p:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0;
+}
+
+#footer {
+    height: 25rem;
+    background-color:lightgray;
+    color:black;
+    margin-top: auto;
+    font-size: 30px;
+    
+}   
+
